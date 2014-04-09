@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>FormMail</title>
+</head>
+<body>
+<style type="text/css">
+* {
+	margin:0;
+	padding:0;
+}
+html {
+}
+body {
+	font-size:90%;
+	text-align:center;
+	line-height:160%;
+	background:#f4f4f5;
+}
+h1, h2, h3 {
+	font-size:100%;
+}
+a img {
+	border:none;
+}
+#wrapper{
+	width:600px;
+	margin:20px auto 0;
+	background:#fff;
+	border:1px solid #e0e0e4;
+	padding:25px 0;
+	text-align:left;
+}
+#formbox{
+	margin:0 20px;
+}
+h1{
+	margin-bottom:20px;
+	border-left:5px solid #296aad;
+	padding:7px 10px 7px 15px;
+	text-align:left;
+	background:#f4f4f5;
+	color:#0e58a4;
+}
+.description{
+	margin:0 20px 20px;
+}
+h2{
+	margin:0 20px 10px;
+}
+table{
+	margin:0 20px 20px;
+	border-collapse:collapse;
+	border-spacing:0;
+	border:1px solid #e0e0e4;
+	width:520px;
+}
+table th{
+	font-size:95%;
+	padding:20px;
+	text-align:right;
+	background:#f4f4f5;
+	border:1px solid #e0e0e4;
+	border-width:0 1px 1px 0;
+}
+table td{
+	font-size:95%;
+	padding:20px;
+	border-bottom:1px solid #e0e0e4;
+}
+.formSubmitButton{
+	margin:0 20px 20px;
+	text-align:center;
+	padding:20px;
+	background:#f4f4f5;
+	border:1px solid #e0e0e4;
+}
+input.text{
+	font-size:100%;
+	border-color:#A1A1A1 #E5E5E5 #E5E5E5 #A1A1A1;
+	border-style:solid;
+	border-width:1px;
+	padding:2px;
+}
+textarea{
+	font-size:100%;
+	border-color:#A1A1A1 #E5E5E5 #E5E5E5 #A1A1A1;
+	border-style:solid;
+	border-width:1px;
+	padding:2px;
+}
+</style>
+<div id="wrapper">
+	<div id="formbox">
+		<h1>お問い合わせフォーム</h1>
+
+		<p class="description">お問い合わせフォームはこちらです。<br />
+			お客様のご意見、疑問・ご不明点は下記フォームからお願いいたします。</p>
+		<h2>入力事項</h2>
+    <form action="http://t-h-r-e-e.com/party2014reply/postmail.cgi" method="post">
+			<input type="hidden" name="need" value="name email" />
+			<input type="hidden" name="match" value="email email2" />
+			<table>
+
+				<tr>
+					<th>おなまえ</th>
+					<td><input type="text" name="name" size="35" class="text" /></td>
+				</tr>
+				<tr>
+					<th>メールアドレス</th>
+					<td><input type="text" name="email" size="35" class="text" /></td>
+				</tr>
+
+				<tr>
+					<th>メールアドレス<br />
+						(再度入力)</th>
+					<td><input type="text" name="email2" size="35" class="text" /></td>
+				</tr>
+				<tr>
+					<th>メッセージ</th>
+
+					<td><textarea name="メッセージ" rows="10" cols="35"></textarea></td>
+				</tr>
+			</table>
+			<p class="formSubmitButton">
+				<input type="submit" value="送信する" />
+				&nbsp;
+				<input type="reset" value="リセット" />
+			</p>
+
+		</form>
+	</div>
+</div>
+</body>
+</html>

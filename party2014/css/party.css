@@ -1,0 +1,133 @@
+@font-face {
+  font-family: Maven;
+  src: url(../fonts/MavenPro-Regular.ttf);
+}
+body{
+  font-family: 'Maven', sans-serif;
+  font-size: 12pt;
+}
+
+div#root-container{
+  width: 960px;
+  margin:0 auto;
+  text-align:center;
+}
+div.horizontal{
+  height:1px;
+  width:100%;
+  background-color: #777;
+}
+div.clearboth{
+  clear: both;
+}
+a{
+  text-decoration: none;
+  color:#000;
+}
+a:hover{
+  color:#888;
+}
+a img{
+  border:none;
+}
+
+div.top-link{
+  font-size: 20pt;
+  display: inline-block;
+  margin:10px;
+}
+
+div#main-image{
+  margin:3px 0 3px 0;
+}
+
+div.sec-title{
+  margin:20px;
+  font-size: 40pt;
+  color:#888;
+  font-weight: bold;
+}
+div#main-title{
+  margin:40px 0 0px 0;
+}
+div#main-text-title{
+  font-size: 18pt;
+  font-weight: bold;
+  margin:30px;
+}
+div.main-text{
+
+}
+div.main-text-high{
+  color:#FF0066;
+  font-size: 18pt;
+  margin: 10px;
+}
+div#form-area{
+  width:520px;
+  margin: 0 auto;
+  margin-top:60px;
+}
+div.form-title{
+  width:200px;
+  margin-left:10px;
+  font-size: 15pt;
+  text-align: left;
+}
+input.form-input{
+  margin:2px 0 20px 0;
+  width:500px;
+  height: 15px;
+  background-color:#eeeeee;
+  border:none;
+  font-size: 14pt;
+  padding:10px;
+}
+
+button.form-button{
+  margin:30px 1px 40px 1px;
+  border:none;
+  width: 234px;
+  height: 58px;
+  font-size: 18pt;
+  cursor: pointer;
+}
+
+#form-accept{
+  background-color:#FF0066;
+}
+
+#form-decline{
+  background-color:#999999;
+}
+
+div.main-text-high2{
+  font-size: 30pt;
+  color:#FF0066;
+  margin: 10px;
+}
+
+div#access-area{
+  width:760px;
+  margin: 0 auto;
+  margin-top:30px;
+}
+
+div.access-float{
+  float:left;
+  text-align: left;
+  width:370px;
+  margin-left:10px;
+
+}
+div.access-left{
+  font-size: 15pt;
+}
+div.access-right{
+  font-size: 12pt;
+}
+
+div.gototop{
+  margin:45px 0 20px 0;
+
+}
